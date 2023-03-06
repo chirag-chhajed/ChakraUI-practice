@@ -1,4 +1,12 @@
-import { Flex, Box, Heading, Button, Text, Spacer,HStack } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Heading,
+  Button,
+  Text,
+  Spacer,
+  HStack,
+} from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
@@ -6,11 +14,11 @@ const Navbar = () => {
       <Heading as={"h1"}>Tasks</Heading>
       <Spacer />
       <HStack spacing={"20px"}>
-      <Box bg={"gray.200"} p={"10px"}>
-        M
-      </Box>
-      <Text>chhajedchirag</Text>
-      <Button colorScheme="purple">Logout</Button>
+        <Box bg={"gray.200"} p={"10px"}>
+          M
+        </Box>
+        <Text>chhajedchirag</Text>
+        <Button colorScheme="purple">Logout</Button>
       </HStack>
     </Flex>
   );
